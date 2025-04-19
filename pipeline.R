@@ -2,8 +2,6 @@
 library(pipelineR)
 library(DBI)
 
-con <- pipelineR::connect_db()
-
 message("Testing start_pipeline() on a small batch...")
 
 batch_size_jenkins <- as.integer(Sys.getenv("JENKINS_BATCH_SIZE"))
