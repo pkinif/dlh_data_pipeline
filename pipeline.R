@@ -1,3 +1,9 @@
+library(renv)
+
+renv::activate()
+renv::autoload()
+renv::restore()
+
 library(pipelineR)
 library(DBI)
 
