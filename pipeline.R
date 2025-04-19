@@ -6,10 +6,14 @@ con <- pipelineR::connect_db()
 
 message("Testing start_pipeline() on a small batch...")
 
+from_jenkins <- sys.getenv("JENKINS_FROM")
+to_jenkins <- sys.getenv("JENKINS_TO")
+batch_size_jenkins <- as.integer(sys.getenv("JENKINS_BATCH_SIZE"))
+
 pipelineR::start_pipeline(
-  from = Sys.Date() - 5,
-  to = Sys.Date(),
-  batch_size = 100
+  from = from_jenkins,
+  to = to_jenkins,
+  batch_size = batch_size_jenkins
 )
 
 message("✅ start_pipeline() completed without crash.")
