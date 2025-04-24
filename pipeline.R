@@ -1,3 +1,4 @@
+library(pipelineR)
 message("Starting Pipeline...")
 batch_size_jenkins <- as.integer(Sys.getenv("JENKINS_BATCH_SIZE"))
 message("Batch size: ", batch_size_jenkins)
