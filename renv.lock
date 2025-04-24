@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.5.0",
+    "Version": "4.4.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -3254,13 +3254,10 @@
       "RemoteRepo": "pipelineR",
       "RemoteUsername": "pkinif",
       "RemoteRef": "HEAD",
-      "RemoteSha": "d24e6b751da975a3955a6d3bf56b0216a0441feb",
+      "RemoteSha": "1af616eedf283c5d8e4765829d045a330d00964a",
       "NeedsCompilation": "no",
       "Author": "Pierrick KINIF [cre]",
-      "Maintainer": "Pierrick KINIF <pierrick.kinif@datagrowth.io>",
-      "Depends": [
-        "R (>= 4.1.0)"
-      ]
+      "Maintainer": "Pierrick KINIF <pierrick.kinif@datagrowth.io>"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -4160,9 +4157,9 @@
     },
     "rrcov": {
       "Package": "rrcov",
-      "Version": "1.7-6",
+      "Version": "1.7-7",
       "Source": "Repository",
-      "VersionNote": "Released 1.7-5 on 2024-01-30 on CRAN",
+      "VersionNote": "Released 1.7-6 on 2024-08-19 on CRAN",
       "Title": "Scalable Robust Estimators with High Breakdown Point",
       "Authors@R": "c(person(\"Valentin\", \"Todorov\", role = c(\"aut\", \"cre\"), email = \"valentin.todorov@chello.at\", comment=c(ORCID = \"0000-0003-4215-0245\")))",
       "Description": "Robust Location and Scatter Estimation and Robust Multivariate Analysis with High Breakdown Point: principal component analysis (Filzmoser and Todorov (2013), <doi:10.1016/j.ins.2012.10.017>), linear and quadratic discriminant analysis (Todorov and Pires (2007)), multivariate tests (Todorov and Filzmoser (2010) <doi:10.1016/j.csda.2009.08.015>), outlier detection (Todorov et al. (2010) <doi:10.1007/s11634-010-0075-2>). See also Todorov and Filzmoser (2009) <urn:isbn:978-3838108148>, Todorov and Filzmoser (2010) <doi:10.18637/jss.v032.i03> and Boudt et al. (2019) <doi:10.1007/s11222-019-09869-x>.",
@@ -4190,7 +4187,7 @@
       "Repository": "RSPM",
       "NeedsCompilation": "yes",
       "Author": "Valentin Todorov [aut, cre] (<https://orcid.org/0000-0003-4215-0245>)",
-      "RoxygenNote": "7.2.2",
+      "RoxygenNote": "7.3.2",
       "Encoding": "UTF-8"
     },
     "rsample": {
