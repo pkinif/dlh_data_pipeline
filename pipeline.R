@@ -1,7 +1,3 @@
-renv::activate()
-renv::autoload()
-renv::restore()
-
 library(pipelineR)
 message("Starting Pipeline...")
 batch_size_jenkins <- as.integer(Sys.getenv("JENKINS_BATCH_SIZE"))
