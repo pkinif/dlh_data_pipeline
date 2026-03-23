@@ -1,6 +1,11 @@
 renv::activate()
 renv::autoload()
-renv::restore()
+status <- renv::status()
+if (isTRUE(status$synchronized)) {
+  message("renv: library matches renv.lock; skipping renv::restore().")
+} else {
+  renv::restore()
+}
 
 library(pipelineR)
 message("Starting Pipeline...")
