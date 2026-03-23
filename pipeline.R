@@ -1,4 +1,4 @@
-
+message("Starting Pipeline...")
 status <- renv::status()
 if (isTRUE(status$synchronized)) {
   message("renv: library matches renv.lock; skipping renv::restore().")
